@@ -35,7 +35,7 @@ export default function processInlineTag(
         style.add(`bgcolor-${backgroundColor.replace(/ /g, '')}`);
       }
       if (fontSize) {
-        style.add(`fontsize-${fontSize.replace(/px$/g, '')}`);
+        style.add(`fontsize-${fontSize.replace(/p(x|t)$/g, '')}`);
       }
       if (fontFamily) {
         style.add(`fontfamily-${fontFamily}`);
