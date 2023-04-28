@@ -1,6 +1,6 @@
 {
-  "name": "trufinol/html-to-draftjs",
-  "version": "1.5.0",
+  "name": "html-to-draftjs",
+  "version": "1.5.1",
   "main": "dist/html-to-draftjs.js",
   "repository": {
     "type": "git",
