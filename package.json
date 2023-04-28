@@ -4,7 +4,7 @@
   "main": "dist/html-to-draftjs.js",
   "repository": {
     "type": "git",
-    "url": "https://github.com/jpuri/html-to-draftjs.git"
+    "url": "https://github.com/Trufinol/html-to-draftjs.git"
   },
   "devDependencies": {
     "@babel/core": "^7.7.5",
@@ -36,7 +36,7 @@
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject",
     "clean": "rimraf dist",
-    "build": "npm run clean && webpack --mode production --config config/webpack.config.js"
+    "build": "npm run clean && NODE_OPTIONS='--openssl-legacy-provider' webpack --mode production --config config/webpack.config.js"
   },
   "author": "Jyoti Puri",
   "license": "MIT"
